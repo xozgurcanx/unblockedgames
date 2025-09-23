@@ -22,7 +22,7 @@
       border-radius:8px;
       font-family:sans-serif;
       font-size:18px;
-      z-index:9999; /* iframe'in üstünde kalması için */
+      z-index:9999; /* geri sayım iframe'in üstünde kalır */
     }
   </style>
   <script>
@@ -39,12 +39,17 @@
     function showGame() {
       document.getElementById("adLayer").style.display = "none";
       document.getElementById("gameLayer").style.display = "block";
-      // Oyun scriptlerini yükle
-      var scripts = ["js/Publisher.js", "js/phaser.min.js", "js/game.min.js"];
+
+      // Orijinal oyun için gerekli scriptler
+      const scripts = [
+        "js/Publisher.js",
+        "js/phaser.min.js",
+        "js/game.min.js"
+      ];
       scripts.forEach(src => {
-        var s = document.createElement("script");
+        const s = document.createElement("script");
         s.src = src;
-        document.body.appendChild(s);
+        document.getElementById("gameLayer").appendChild(s);
       });
     }
     window.onload = updateCountdown;
@@ -60,7 +65,9 @@
   </div>
 
   <!-- Oyun Katmanı -->
-  <div id="gameLayer"></div>
+  <div id="gameLayer">
+    <div id="gameContainer"></div>
+  </div>
 
 </body>
 </html>

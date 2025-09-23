@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Game</title>
+	
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	
+	
+	<script type="text/javascript" src="./lib/soundjs.min.js"></script>
+	<script type="text/javascript" src="./Game.js"></script>
+	
+	<script type="text/javascript">
+		function HTML5API_levelStarted() {
+		window.HTML5API && HTML5API.levelStarted && HTML5API.levelStarted();
+		}
+		function HTML5API_levelEnded() { window.HTML5API && HTML5API.levelEnded && HTML5API.levelEnded(); }
+			function HTML5API_preloaderStarted() {
+		window.HTML5API && HTML5API.preloaderStarted && HTML5API.preloaderStarted();
+		}
+		function HTML5API_preloaderEnded() {
+		window.HTML5API && HTML5API.preloaderEnded && HTML5API.preloaderEnded();
+		}
+		function HTML5API_preloaderProgress(percentDone) {
+		window.HTML5API && HTML5API.preloaderProgress &&
+		HTML5API.preloaderProgress(percentDone);
+		}
+		function HTML5API_setWidgetState(state) {
+		window.HTML5API && HTML5API.setWidgetState && HTML5API.setWidgetState(state);
+		}
+	</script>
+	
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, false);
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+	</script>
+	
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+		
+	</style>
+	
+</head>
+<body>
+	
+	
+	<div id="openfl-content"></div>
+	
+	<script type="text/javascript">
+		<!--openfl.embed ("openfl-content", 720, 480, "000000");-->
+		openfl.embed ("openfl-content", 720, 480);
+	</script>
+	
+</body>
+</html>

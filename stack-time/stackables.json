@@ -1,0 +1,52 @@
+{
+	"stackables": {
+		"backgroundImage": "tablecloth-sandwich.png",
+		"text": {
+			"intro": "Let's make some sandwiches!",
+			"gameOver": "The blocks reached the top! You made [#] sandwich(es)!"
+		},
+		"blocks": [
+			{
+				"color": "#f17225",
+				"image": "bread.png"
+			},
+			{
+				"color": "#bc5a1f",
+				"image": "turkey.png"
+			},
+			{
+				"color": "#668928",
+				"image": "tomato.png"
+			},
+			{
+				"color": "#a6c332",
+				"image": "lettuce.png"
+			}
+		],
+		"builtImage": "napkin_plate.png",
+		"builtImageParts": [
+			"sandwich_bread_bottom.png",
+			"sandwich_turkey.png",
+			"sandwich_tomato.png",
+			"sandwich_lettuce.png",
+			"sandwich_bread_top.png"
+		],
+		"builtCounter": {
+			"image": "sandwiches_made.png",
+			"altText": "Sandwiches Made"
+		},
+		"levelCounter": {
+			"image": "level.png",
+			"altText": "Level"
+		},
+		"bonusImage": "full_sandwich.png",
+		"sounds": {
+			"match": "Pickup_GemBells03",
+			"nomatch": "Pickup_GemBells19",
+			"levelUp": "Pickup_MagicBells10",
+			"built": "bell",
+			"gameOver": "Stackables_Chomping",
+			"rise": "Stackables_Level_Increase"
+		}
+	}
+}

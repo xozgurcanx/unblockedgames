@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, minimum-scale=1">
+ 
+ <title>raceinferno2</title>
+<style>html,body{width:100%;height:100%;background-color:#211119;max-height:100%;overflow:hidden;margin:0;padding:0}body{width:100%;height:100%;z-index:1;position:fixed;top:0;transform-origin:center center;touch-action:none;-ms-touch-action:none}canvas{position:absolute;z-index:10}.bg{background-image:url(game/assets/unpacked/background.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}</style>
+<script>var gid = 'raceinferno2'; 
+function __gb_gup(name) { 
+ var url = location.href; 
+ var regexS = '[\\?&]'+name+'=([^&#]*)'; 
+ var regex = new RegExp( regexS ); 
+ var results = regex.exec( url ); 
+ return results == null ? null : results[1]; 
+} 
+window.addEventListener('error', function (event) { 
+    if(hip && hip.UETRACKER_READY) return; 
+    var message = event.error.message; 
+    var stack = event.error.stack; 
+    if (stack) { 
+        message += '\n' + stack; 
+    } else { 
+        message += (' at ' + event.filename + ':' + event.lineno + ':' + event.colno); 
+    } 
+    sendGaEvt('error', 'uncaught error', message); 
+    return false; 
+}); 
+function sendGaEvt(category, action, label) { 
+    if (typeof ga != 'undefined') { 
+        sendGaEvt0(category, action, label) 
+    } else { 
+        window.setTimeout(function () { 
+            if (typeof ga != 'undefined') { 
+                sendGaEvt0(category, action, label) 
+            } 
+        }, 3000); 
+    } 
+} 
+function sendGaEvt0(category, action, label) { 
+    var evt = { 
+        'hitType': 'event', 
+        'eventCategory': category, 
+        'eventAction': action, 
+        'eventLabel': label 
+    }; 
+    ga('send', evt); 
+} 
+function onGameJsLoaded() { 
+    var success = false; 
+    if (typeof (GAME_JS_OK) != 'undefined') { 
+        success = true; 
+    } 
+    var label = (success == true) ? 'success' : 'failure'; 
+} 
+</script>
+</head>
+<body class="bg">
+<script src="build/game.min.js" onload="onGameJsLoaded()"></script>
+</body>
+</html>

@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'bpreplaybold';
+	src: url('../fonts/bpreplayextendedbold-webfont.eot');
+	src: url('../fonts/bpreplayextendedbold-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/bpreplayextendedbold-webfont.woff') format('woff'),  url('../fonts/bpreplayextendedbold-webfont.ttf') format('truetype'),  url('../fonts/bpreplayextendedbold-webfont.svg#bpreplaybold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#stackables, #stackables * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#stackables {
+	/*width: 800px;
+	height: 525px;*/
+	width: 100%;
+	height: 100%;
+	border: 2px solid #3697d5;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	background-color: #7dc2e7;
+	background-repeat: repeat;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#stackables button {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+#stackables_preloader {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	position: absolute;
+	width: 300px;
+	height: 16px;
+	border: 2px solid #668928;
+	background-color: #FFF;
+	top: 50%;
+	margin-top: -10px;
+	left: 50%;
+	margin-left: -152px;
+}
+#stackables_preloader_bar {
+	width: 0px;
+	height: 16px;
+	background-color: #a6c332;
+}
+/*left side layout div*/
+#stackables_left {
+	/*background-color:#FF0 ;*/
+	display: inline-block;/*js reads this: block = device portrait mode*/
+	float: left;
+	height: 100%;
+}
+/*right side layout div*/
+#stackables_right {
+	/*background: red;*/
+	position: relative;/*needed for sandwich at bottom*/
+	height: 100%;
+	overflow: hidden;/*makes this column take up remaining width*/
+	text-align: center;/*centers collected div in portrait mode*/
+}
+/*rounded container that holds the blocks*/
+#stackables_blocks_holder {
+	position: relative;
+	display: inline-block;
+	float: left;
+	border: 2px solid #fade14;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fade14;
+	padding: 2px;
+	height: 100%;
+}
+/*div that holds the blocks*/
+#stackables_blocks {
+	/*border:1px solid red;*/
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+/*game blocks*/
+.block {
+	position: absolute;
+	border: 2px solid #fade14;/*yellow border creates visual spacing - transparent doesn't work*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 10%;
+	height: 10%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#stackables_timer {
+	position: relative;
+	display: inline-block;
+	margin: 0px 10px;
+	width: 20px;
+	height: 100%;
+	border: 2px solid #803571;
+	background-color: #ab499a;
+}
+#stackables_timer_bar {
+	position: absolute;
+	width: 16px;
+	background-color: #fbb5f7;
+}
+/*collected parts layout div*/
+#stackables_collected_box {
+	/*border: 1px solid red;*/
+	display: block;
+	height: 35%;
+	padding-bottom: 10px;
+}
+/*collected parts layout div rounded container*/
+#stackables_collected_container {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fade14;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*collected parts stacked divs that hold the images*/
+#stackables_collected_container div {
+	/*border: 1px solid red;*/
+	position: absolute;
+	height: 85%;/*images will shrink on small screens*/
+	background-repeat: no-repeat;
+	background-position: center;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.stackables_stat_container {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+}
+.stackables_stat {
+	position: relative;
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0px auto;
+	font-family: bpreplaybold, Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-size: 50px;
+	line-height: 75px;
+	text-align: center;
+	display: inline-block;
+}
+/*sandwiches made and level divs*/
+.stackables_stat_img {
+	padding-top: 10px;
+}
+/*sandwiches made and level images*/
+.stackables_stat_img img {
+	max-width: 100%;
+	height: auto;
+}
+/*sandwiches made layout div*/
+#stackables_built_box {
+	/*border: 1px solid red;*/
+	width: 50%;
+	height: 30%;
+	display: inline-block;
+	float: left;
+	padding-right: 5px;
+}
+/*sandwiches made container*/
+#stackables_built_container {
+	background-color: #a6c332;
+}
+/*sandwiches made number container*/
+#stackables_built {
+	background-color: #668928;
+}
+/*level layout div*/
+#stackables_level_box {
+	/*border: 1px solid red;*/
+	width: 50%;
+	height: 30%;
+	display: inline-block;
+	float: right;
+	padding-left: 5px;
+}
+/*level container*/
+#stackables_level_container {
+	background-color: #f6a722;
+}
+/*level number container*/
+#stackables_level {
+	background-color: #f17225;
+}
+/*completed sandwich div*/
+#stackables_bonus {
+	/*border: 1px solid red;*/
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 35%;
+	padding: 0px 10px 10px 5px;
+}
+#stackables_bonus img {
+	/*border: 1px solid green;*/
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	max-width: 500px;
+	position: absolute;
+	margin: auto;
+	/*top: 0;*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#stackables_audio_toggle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 3px;
+	padding: 6px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background-color: #ab499a;
+	cursor: pointer;
+}
+#stackables_audio_toggle div {
+	width: 35px;
+	/*height: 35px;*/
+	border: 2px solid #fff;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background-color: #803571;
+	padding: 8px 6px;
+	color: #fff;
+	text-align: left;
+}
+#stackables_popup {
+	/*border:1px solid blue;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+/*pseudo elements used to align popup (alternately can use nested divs with table and table-cell)*/
+#stackables_popup:before, #stackables_popup:after {
+	content: '';
+	display: inline-block;
+	height: 60%;
+	width: 0px;
+	vertical-align: middle;
+}
+#stackables_popup.full:before, #stackables_popup.full:after {
+	height: 100%;
+}
+#stackables_popup div {
+	width: 75%;
+	border: 16px solid #00a7ae;
+	-webkit-border-radius: 32px;
+	-moz-border-radius: 32px;
+	border-radius: 32px;
+	background-color: #00b6bd;
+	font-family: bpreplaybold, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #FFF;
+	text-align: center;
+	padding: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#stackables_popup p {
+	margin-top: 0px;
+}
+#stackables_popup button {
+	border: 3px solid #f7941e;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 3px 20px;
+	color: #FFF;
+	font-family: bpreplaybold, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	cursor: pointer;
+}
+#stackables_popup button {
+	background: #fdb912; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffde00 0%, #fdb912 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffde00), color-stop(100%, #fdb912)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffde00 0%, #fdb912 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffde00 0%, #fdb912 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffde00 0%, #fdb912 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffde00 0%, #fdb912 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffde00', endColorstr='#fdb912', GradientType=0); /* IE6-9 */
+}
+#stackables_popup button:hover {
+	border: 3px solid #da6314;
+	background: #f2810c; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffa900 0%, #f2810c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffa900), color-stop(100%, #f2810c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffa900 0%, #f2810c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffa900 0%, #f2810c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffa900 0%, #f2810c 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffa900 0%, #f2810c 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa900', endColorstr='#f2810c', GradientType=0); /* IE6-9 */
+}

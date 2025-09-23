@@ -1,0 +1,112 @@
+{
+  "urls": [
+    "game/assets/sounds/sounds.mp3",
+    "game/assets/sounds/sounds.ogg"
+  ],
+  "sprite": {
+    "barrel": [
+      0,
+      636
+    ],
+    "best_score": [
+      2000,
+      1500
+    ],
+    "big_cheer": [
+      5000,
+      6020
+    ],
+    "buy_car": [
+      13000,
+      1546
+    ],
+    "car_choc": [
+      16000,
+      408
+    ],
+    "car_explode": [
+      18000,
+      7636
+    ],
+    "car_loop_1": [
+      27000,
+      2500
+    ],
+    "coins_collected": [
+      31000,
+      450
+    ],
+    "coins_collected2": [
+      33000,
+      450
+    ],
+    "cone_1": [
+      35000,
+      575
+    ],
+    "cone_2": [
+      37000,
+      549
+    ],
+    "life": [
+      39000,
+      388
+    ],
+    "medium_cheer": [
+      41000,
+      3399
+    ],
+    "music": [
+      46000,
+      12800
+    ],
+    "out_racing_loop": [
+      60000,
+      3211
+    ],
+    "paid": [
+      65000,
+      823
+    ],
+    "rock": [
+      67000,
+      430
+    ],
+    "score_choc": [
+      69000,
+      202
+    ],
+    "select": [
+      71000,
+      292
+    ],
+    "small_cheer": [
+      73000,
+      4491
+    ],
+    "start": [
+      79000,
+      799
+    ],
+    "swipe_car": [
+      81000,
+      448
+    ],
+    "verysmall_cheer": [
+      83000,
+      3086
+    ],
+    "wheel_brake": [
+      88000,
+      550
+    ],
+    "whoosh_transit": [
+      90000,
+      469
+    ],
+    "yeah": [
+      92000,
+      1038
+    ]
+  }
+}

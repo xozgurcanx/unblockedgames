@@ -1,0 +1,20 @@
+{"frames": {
+
+"level-meter-bg":
+{
+	"frame": {"x":2,"y":2,"w":604,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":604,"h":93},
+	"sourceSize": {"w":604,"h":93}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "uncompressed-assets.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":128},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:66cbada1ae13357d25d4f5bc0baafb7b:7e72b2e1cae570066eb3e607a1a5016b:d46e611a64f9094914a14854e39add1d$"
+}
+}

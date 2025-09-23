@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Air Hostess Dress Up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+	<link rel="manifest" href="appmanifest.json">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<script type="text/javascript">
+    window["GD_OPTIONS"] = {
+        "debug": false, // Enable debugging console. This will set a value in local storage as well, remove this value if you don't want debugging at all. You can also call it by running gdsdk.openConsole() within your browser console.
+        "gameId": "cf6569400bd54c82bdc3118071810d92", // Your gameId which is unique for each one of your games; can be found at your Gamedistribution.com account.
+        "advertisementSettings": {
+            "debug": false, // Enable IMA SDK debugging.
+            "autoplay": false, // Enable auto start of pre-roll advertisement. Will be disabled when auto play is not supported.
+            "responsive": true, // Enable advertisement responsiveness, otherwise given width and height will be used.
+        },
+        "onEvent": function(event) {
+            switch (event.name) {
+                case "SDK_GAME_START":
+                    // ...
+                    break;
+                case "SDK_GAME_PAUSE":
+                    // ...
+                    break;
+                case "SDK_READY":
+                    // ...
+                    break;
+                case "SDK_ERROR":
+                    // ...
+                    break;
+                case "SDK_GDPR_TRACKING":
+                    // ..
+                    break;
+                case "SDK_GDPR_TARGETING":
+                    // ..
+                    break;
+            }
+        },
+    };
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://html5.api.gamedistribution.com/main.min.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'gamedistribution-jssdk'));
+</script>
+<body>
+<div id="fb-root"></div>
+	<script src="c2runtime.js"></script>
+	<script src="start.js"></script>
+</body>
+</html>

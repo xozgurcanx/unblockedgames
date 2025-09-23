@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c33625487709259095f071295970d64f:5d25580ecd7007cdc7f8230dfbafd00e:9851764eab5b13b3a288c2203a1a1008$ -->
+<TextureAtlas imagePath="MainAtlas.png">
+    <SubTexture name="2_plaiers" x="861" y="266" width="145" height="83"/>
+    <SubTexture name="Back-001" x="847" y="351" width="145" height="83"/>
+    <SubTexture name="MENU-002" x="644" y="375" width="145" height="83"/>
+    <SubTexture name="Menu-001" x="2" y="1031" width="103" height="83"/>
+    <SubTexture name="TEXT_bg" x="2" y="644" width="605" height="83"/>
+    <SubTexture name="a1" x="2" y="1116" width="83" height="83"/>
+    <SubTexture name="a2" x="87" y="1116" width="83" height="83"/>
+    <SubTexture name="a3" x="619" y="986" width="83" height="83"/>
+    <SubTexture name="a_b" x="563" y="753" width="67" height="49"/>
+    <SubTexture name="ai_1" x="293" y="1126" width="88" height="49"/>
+    <SubTexture name="ai_2" x="791" y="592" width="53" height="36" frameX="0" frameY="-12" frameWidth="53" frameHeight="50"/>
+    <SubTexture name="arrow" x="780" y="736" width="47" height="42"/>
+    <SubTexture name="arrowBot1_copy" x="293" y="1177" width="73" height="75" frameX="0" frameY="0" frameWidth="76" frameHeight="78"/>
+    <SubTexture name="arrowUp1_copy" x="172" y="1193" width="73" height="75" frameX="0" frameY="0" frameWidth="76" frameHeight="78"/>
+    <SubTexture name="arrowsSep" x="885" y="246" width="77" height="15" frameX="0" frameY="0" frameWidth="78" frameHeight="18"/>
+    <SubTexture name="brain" x="293" y="1056" width="92" height="68" frameX="-1" frameY="0" frameWidth="94" frameHeight="68"/>
+    <SubTexture name="chess_bg_1" x="2" y="2" width="640" height="640"/>
+    <SubTexture name="chip1_1 - копия" x="212" y="1031" width="79" height="79"/>
+    <SubTexture name="chip1_1" x="212" y="1112" width="79" height="79"/>
+    <SubTexture name="chip2_1" x="383" y="1146" width="79" height="79"/>
+    <SubTexture name="clock_1" x="296" y="946" width="108" height="108"/>
+    <SubTexture name="clock_2" x="406" y="946" width="108" height="108"/>
+    <SubTexture name="clock_3" x="791" y="630" width="51" height="51" frameX="-12" frameY="-12" frameWidth="108" frameHeight="108"/>
+    <SubTexture name="clock_Ellipse" x="791" y="375" width="54" height="54"/>
+    <SubTexture name="clock_Ellipse2" x="791" y="431" width="54" height="54"/>
+    <SubTexture name="clock_copy" x="861" y="30" width="25" height="25" frameX="-6" frameY="-6" frameWidth="54" frameHeight="54"/>
+    <SubTexture name="comp" x="791" y="543" width="53" height="47" frameX="0" frameY="-1" frameWidth="53" frameHeight="50"/>
+    <SubTexture name="d_0" x="861" y="146" width="22" height="28" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_1" x="804" y="780" width="15" height="27" frameX="-6" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_2" x="993" y="681" width="22" height="27" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_3" x="861" y="176" width="22" height="28" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_4" x="861" y="117" width="23" height="27" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_5" x="861" y="206" width="22" height="28" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_6" x="861" y="236" width="22" height="28" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_7" x="991" y="710" width="22" height="27" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_8" x="994" y="351" width="22" height="28" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="d_9" x="994" y="381" width="22" height="28" frameX="-4" frameY="0" frameWidth="30" frameHeight="28"/>
+    <SubTexture name="digBright_0" x="994" y="411" width="22" height="28"/>
+    <SubTexture name="digBright_1" x="779" y="809" width="15" height="27"/>
+    <SubTexture name="digBright_2" x="991" y="739" width="22" height="27"/>
+    <SubTexture name="digBright_3" x="991" y="768" width="22" height="27" frameX="0" frameY="-1" frameWidth="22" frameHeight="28"/>
+    <SubTexture name="digBright_4" x="861" y="57" width="23" height="28"/>
+    <SubTexture name="digBright_5" x="609" y="695" width="22" height="27"/>
+    <SubTexture name="digBright_6" x="994" y="441" width="22" height="28"/>
+    <SubTexture name="digBright_7" x="609" y="724" width="22" height="27"/>
+    <SubTexture name="digBright_8" x="994" y="471" width="22" height="28"/>
+    <SubTexture name="digBright_9" x="994" y="501" width="22" height="28"/>
+    <SubTexture name="dig_0" x="994" y="531" width="22" height="28"/>
+    <SubTexture name="dig_1" x="796" y="809" width="15" height="27"/>
+    <SubTexture name="dig_11" x="1008" y="124" width="9" height="9" frameX="-2" frameY="-19" frameWidth="14" frameHeight="28"/>
+    <SubTexture name="dig_2" x="976" y="847" width="22" height="27"/>
+    <SubTexture name="dig_3" x="994" y="561" width="22" height="28"/>
+    <SubTexture name="dig_4" x="861" y="87" width="23" height="28"/>
+    <SubTexture name="dig_5" x="1000" y="847" width="22" height="27"/>
+    <SubTexture name="dig_6" x="994" y="591" width="22" height="28"/>
+    <SubTexture name="dig_7" x="780" y="780" width="22" height="27"/>
+    <SubTexture name="dig_8" x="993" y="621" width="22" height="28"/>
+    <SubTexture name="dig_9" x="993" y="651" width="22" height="28"/>
+    <SubTexture name="flag" x="644" y="460" width="145" height="83"/>
+    <SubTexture name="flag_1" x="791" y="683" width="51" height="51"/>
+    <SubTexture name="flag_2" x="976" y="797" width="37" height="48"/>
+    <SubTexture name="fs_clock" x="791" y="487" width="54" height="54"/>
+    <SubTexture name="home" x="704" y="986" width="83" height="83"/>
+    <SubTexture name="home_copy" x="847" y="436" width="145" height="83"/>
+    <SubTexture name="logo" x="563" y="885" width="422" height="99" frameX="-49" frameY="0" frameWidth="520" frameHeight="99"/>
+    <SubTexture name="menu_1" x="789" y="986" width="83" height="83"/>
+    <SubTexture name="menu_1a" x="894" y="2" width="120" height="120"/>
+    <SubTexture name="no" x="847" y="521" width="145" height="83"/>
+    <SubTexture name="onePlaier" x="609" y="644" width="32" height="49" frameX="-1" frameY="-1" frameWidth="33" frameHeight="50"/>
+    <SubTexture name="onePlaier1" x="609" y="644" width="32" height="49" frameX="-10" frameY="-1" frameWidth="53" frameHeight="50"/>
+    <SubTexture name="one_plaier-001" x="644" y="545" width="145" height="83"/>
+    <SubTexture name="one_plaier" x="846" y="606" width="145" height="83"/>
+    <SubTexture name="online" x="644" y="630" width="145" height="83"/>
+    <SubTexture name="onlineA" x="844" y="691" width="145" height="83"/>
+    <SubTexture name="plashka1" x="644" y="30" width="215" height="125" frameX="0" frameY="0" frameWidth="564" frameHeight="125"/>
+    <SubTexture name="plashka2" x="644" y="157" width="215" height="125" frameX="0" frameY="0" frameWidth="564" frameHeight="125"/>
+    <SubTexture name="plashka_A" x="2" y="729" width="559" height="215" frameX="-8" frameY="-10" frameWidth="582" frameHeight="236"/>
+    <SubTexture name="play" x="633" y="715" width="145" height="83"/>
+    <SubTexture name="replay" x="829" y="776" width="145" height="83"/>
+    <SubTexture name="restartBtn" x="829" y="776" width="145" height="83"/>
+    <SubTexture name="selector" x="387" y="1056" width="88" height="88" frameX="-1" frameY="0" frameWidth="89" frameHeight="88"/>
+    <SubTexture name="separatorH" x="644" y="19" width="248" height="9"/>
+    <SubTexture name="separatorH_1" x="644" y="2" width="248" height="15" frameX="0" frameY="0" frameWidth="248" frameHeight="18"/>
+    <SubTexture name="sound" x="632" y="800" width="145" height="83"/>
+    <SubTexture name="sound_1" x="874" y="986" width="83" height="83"/>
+    <SubTexture name="sounds-001" x="874" y="986" width="83" height="83"/>
+    <SubTexture name="sounds" x="632" y="800" width="145" height="83"/>
+    <SubTexture name="soundsOff-001" x="619" y="1071" width="83" height="83"/>
+    <SubTexture name="soundsOff" x="2" y="946" width="145" height="83"/>
+    <SubTexture name="sounds_1off" x="619" y="1071" width="83" height="83"/>
+    <SubTexture name="sounds_off" x="2" y="946" width="145" height="83"/>
+    <SubTexture name="undo-001" x="477" y="1077" width="83" height="83"/>
+    <SubTexture name="undo" x="107" y="1031" width="103" height="83"/>
+    <SubTexture name="undo_1" x="477" y="1077" width="83" height="83"/>
+    <SubTexture name="undo_1a" x="886" y="124" width="120" height="120"/>
+    <SubTexture name="win" x="516" y="986" width="101" height="89"/>
+    <SubTexture name="win1" x="644" y="284" width="201" height="89"/>
+    <SubTexture name="yes" x="149" y="946" width="145" height="83"/>
+</TextureAtlas>

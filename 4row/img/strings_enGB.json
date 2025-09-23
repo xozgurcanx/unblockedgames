@@ -1,0 +1,10 @@
+{
+	"tap_to_start_text":"Tap to start",
+	"player_1_Title":"Player 1",
+	"player_2_Title":"Player 2",
+	"player_1_TitlePC":"PC 1",
+	"player_2_TitlePC":"PC 2",
+	"opponent_wait_txt":"Opponent waiting...",
+	"opponent_has_left_the_game_txt":"Your opponent has left the game.",
+	"game_time_text":"Game time:"
+}

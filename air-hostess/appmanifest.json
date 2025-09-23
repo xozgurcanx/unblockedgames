@@ -1,0 +1,10 @@
+{
+	"name": "Airhostess Dress Up",
+	"short_name": "Airhostess Dress Up",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": []
+}

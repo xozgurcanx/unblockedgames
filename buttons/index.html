@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Buttons & Scissors">
+        <title>Buttons & Scissors</title>
+    </head>
+    
+    <body style="padding: 0; margin: 0; background-color: #000000; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -webkit-tap-highlight-color: transparent; -webkit-touch-callout: none; touch-action:none; -ms-touch-action:none;">
+
+        <div id="bg">
+            <style>
+            #bg {
+              position: fixed;
+              top: -50%;
+              left: -50%;
+              width: 200%;
+              height: 200%;
+            }
+            #bg img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              margin: auto;
+              min-width: 50%;
+              min-height: 50%;
+            }
+            </style>
+          <img src="assets/background.png">
+        </div>
+
+        <script type="text/javascript" src="lib/visibility.min.js"></script>
+        <script type="text/javascript" src="lib/tweenjs.min.js"></script>
+        <script type="text/javascript" src="lib/howler.min.js"></script>
+        <script type="text/javascript" src="lib/pixi.min.js"></script>
+        
+        <script type="text/javascript" src="game.min.js?v=7"></script>
+        
+    </body>
+</html>

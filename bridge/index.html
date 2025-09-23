@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset=utf-8><title>Bridge Online</title><script type=text/javascript>
+        var w = window.innerWidth * window.devicePixelRatio;
+        var h = window.innerHeight * window.devicePixelRatio;
+        var lScale = Math.floor(10 / window.devicePixelRatio) / 10;
+        if (w===undefined || w===null || h===undefined || h===null || lScale===undefined || lScale===null ){ lScale = 1; }
+        document.write('<meta name="viewport" content="width=device-width, initial-scale=' + lScale + ' user-scalable=no,minimal-ui=1">');
+    </script><script type=text/javascript>
+        var _gameGATracker = function (){};
+    </script><script src=js/libs/riveted.min.js></script><script>riveted.init();</script><link rel=stylesheet href=css/main.min.css><link rel=stylesheet href=css/preloader.min.css></head><body><div id=swiffyContainer class=visible></div><div id=bridge-webgl-game class=game></div><div class=preloaderContainer id=preloaderContainer><span class=cssload-loader><span class=cssload-loader-inner></span></span></div><script src=js/libs/jquery-1.8.2.min.js></script><script src=js/libs/runtime-swiffy-v5.0.js></script><script src=js/libs/matel-ap-1.0.js></script><script src=js/libs/matel-1.0.js></script><script src=js/libs/phaser.js></script><script src=js/libs/phaser-input.js></script><script src=main.min.js></script></body></html>

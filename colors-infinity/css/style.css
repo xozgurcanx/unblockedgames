@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    /* keeps scrollbar off IE */
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #000;
+    border: 0 none white;
+    padding: 0;
+    margin: 0;
+
+    background: rgba(235,233,249,1);
+}
+
+canvas {
+    border: 0;
+    padding: 0;
+    margin: auto;
+    display: block;
+    outline: none;
+}
+
+#GameCanvas {
+    background: rgba(235,233,249,1);
+
+    background-image: url('../splash.jpg');
+    background-size: 768px 1024px;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    margin: auto;
+
+    display: none;
+
+     
+}
+

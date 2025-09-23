@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringresources>
+<languages>
+<language>en</language>
+<language>sk</language>
+<language>es</language>
+<language>cz</language>
+<language>de</language>
+<language>it</language>
+<language>fr</language>
+<language>ru</language>
+<language>pt</language>
+<language>tr</language>
+</languages>
+<strings>
+<string id="1" index="0">
+<en>en</en>
+<sk>sk</sk>
+<es>es</es>
+<cz>cz</cz>
+<de>de</de>
+<it>it</it>
+<fr>fr</fr>
+<ru>ru</ru>
+<pt>pt</pt>
+<tr>tr</tr>
+</string>
+<string id="10" index="1">
+<en>ABOUT</en>
+<sk/>
+<es>INFORMACIÓN</es>
+<cz/>
+<de>ÜBER SPIEL</de>
+<it>INFO. SU</it>
+<fr>A PROPOS</fr>
+<ru/>
+<pt>SOBRE O JOGO</pt>
+<tr/>
+</string>
+<string id="11" index="2">
+<en>MORE GAMES</en>
+<sk/>
+<es>MÁS JUEGOS</es>
+<cz/>
+<de>MEHR SPIELE</de>
+<it>ALTRI GIOCHI</it>
+<fr>PLUS DE JEUX</fr>
+<ru/>
+<pt>MAIS JOGOS</pt>
+<tr/>
+</string>
+<string id="12" index="3">
+<en>EXIT?</en>
+<sk/>
+<es>¿FINAL?</es>
+<cz/>
+<de>ENDE?</de>
+<it>ESCI?</it>
+<fr>QUITTER ?</fr>
+<ru/>
+<pt>ACABAR?</pt>
+<tr/>
+</string>
+<string id="13" index="4">
+<en>QUIT TO MENU</en>
+<sk/>
+<es>SALIR AL MENÚ</es>
+<cz/>
+<de>ZUM MENÜ</de>
+<it/>
+<fr>RETOUR AU MENU</fr>
+<ru/>
+<pt>SAIR PARA O MENU</pt>
+<tr/>
+</string>
+<string id="14" index="5">
+<en>QUIT TO MENU?</en>
+<sk/>
+<es>¿SALIR AL MENÚ?</es>
+<cz/>
+<de>ZUM MENÜ?</de>
+<it/>
+<fr>RETOUR AU MENU ?</fr>
+<ru/>
+<pt>SAIR PARA O MENU?</pt>
+<tr/>
+</string>
+<string id="15" index="6">
+<en>ON</en>
+<sk/>
+<es>ON</es>
+<cz/>
+<de>AN</de>
+<it>ON</it>
+<fr>OUI</fr>
+<ru/>
+<pt>LIG.</pt>
+<tr/>
+</string>
+<string id="16" index="7">
+<en>OFF</en>
+<sk/>
+<es>OFF</es>
+<cz/>
+<de>AUS</de>
+<it>DES.</it>
+<fr>NON</fr>
+<ru/>
+<pt>DESLIG.</pt>
+<tr/>
+</string>
+<string id="17" index="8">
+<en>VERSION</en>
+<sk/>
+<es>VERSIÓN</es>
+<cz/>
+<de>VERSION</de>
+<it>VERSION</it>
+<fr>VERSION</fr>
+<ru/>
+<pt>VERSÃO</pt>
+<tr/>
+</string>
+<string id="18" index="9">
+<en>ARE YOU SURE? THIS WILL EXIT THE APPLICATION.</en>
+<sk/>
+<es>¿ESTÁS SEGURO? ESO TERMINARÁ LA PARTIDA.</es>
+<cz/>
+<de>BIST DU SICHER? DAS WIRD DIE ANWENDUNG BEENDEN.</de>
+<it/>
+<fr>L'APPLICATION SERA FERMÉE. CONFIRMER?</fr>
+<ru/>
+<pt>VOCÊ TEM CERTEZA? O JOGO VAI TERMINAR.</pt>
+<tr/>
+</string>
+<string id="19" index="10">
+<en>CONTINUE?</en>
+<sk/>
+<es>¿CONTINUAR?</es>
+<cz/>
+<de>WEITER?</de>
+<it>CONTINUA?</it>
+<fr>CONTINUER ?</fr>
+<ru/>
+<pt>CONTINUAR?</pt>
+<tr/>
+</string>
+<string id="2" index="11">
+<en>ENABLE MUSIC?</en>
+<sk/>
+<es>¿PONER MÚSICA?</es>
+<cz/>
+<de>MUSIK EINSCHALTEN?</de>
+<it>ACCENDERE SUONI?</it>
+<fr>ACTIVER LES SONS?</fr>
+<ru/>
+<pt>LIGAR A MÚSICA?</pt>
+<tr/>
+</string>
+<string id="20" index="12">
+<en>PAUSE</en>
+<sk/>
+<es>PAUSA</es>
+<cz/>
+<de>PAUSE</de>
+<it/>
+<fr>PAUSE</fr>
+<ru/>
+<pt>PAUSE</pt>
+<tr/>
+</string>
+<string id="GAME_OVER" index="13">
+<en>GAME OVER</en>
+<sk/>
+<es>FINAL DE LA PARTIDA</es>
+<cz/>
+<de>SPIELENDE</de>
+<it>GAME OVER</it>
+<fr>FIN DU JEU</fr>
+<ru/>
+<pt>FIM DO JOGO</pt>
+<tr/>
+</string>
+<string id="22" index="14">
+<en>MEDAL</en>
+<sk/>
+<es>MEDALLA</es>
+<cz/>
+<de>MEDAILLE</de>
+<it/>
+<fr>MÉDAILLE</fr>
+<ru/>
+<pt>MEDALHA</pt>
+<tr/>
+</string>
+<string id="SCORE" index="15">
+<en>SCORE</en>
+<sk/>
+<es>PUNTUACIÓN</es>
+<cz/>
+<de>PUNKTE</de>
+<it/>
+<fr>SCORE</fr>
+<ru/>
+<pt>PONTUAÇÃO</pt>
+<tr/>
+</string>
+<string id="24" index="16">
+<en>BEST</en>
+<sk/>
+<es>LO MEJOR</es>
+<cz/>
+<de>REKORD</de>
+<it/>
+<fr>RECORD</fr>
+<ru/>
+<pt>MELHOR</pt>
+<tr/>
+</string>
+<string id="GAME_CONTROLS" index="17">
+<en>CONTROLS:\n\nTAP TO ACTIVATE THE POWER WALL IN LABORATORY TO REFLECT THE BALL, WHEN IT APPROACHES THE BOTTOM SIDE OF THE SCREEN. TAP OTHER ONSCREEN ICONS FOR CORRESPONDING ACTION (USE UNDO, PLAY, PAUSE...).</en>
+<sk>controls touch</sk>
+<es>CONTROL:\n\nTOCA PARA ACTIVAR LA PARED ELÉCTRICA EN EL LABORATORIO Y QUE LA BOLA REBOTE CUANDO LLEGUE A LA PARTE INFERIOR DE LA PANTALLA. TOCA LOS DEMÁS ICONOS PARA REALIZAR LA ACCIÓN CORRESPONDIENTE (USAR DESHACER, JUGAR, PAUSA, ETC.).</es>
+<cz/>
+<de>STEUERUNG:\n\nTIPPE, UM DIE ENERGIEWAND IM LABOR ZU AKTIVIEREN UND DEN BALL UMZULENKEN, SOBALD DIESER SICH AUF DIE UNTERSEITE DES BILDSCHIRMS ZUBEWEGT. TIPPE AUF DIE SYMBOLE AUF DEM BILDSCHIRM FÜR DIE ENTSPRECHENDEN AKTIONEN (RÜCKGÄNGIG, SPIELEN, PAUSE …).</de>
+<it>COMANDI:\n\nTOCCA PER ATTIVARE IL MURO DI ENERGIA NEL LABORATORIO PER RIFLETTERE LA PALLA, QUANDO SI AVVICINA AL LATO INFERIORE DELLO SCHERMO. TOCCA LE ICONE SULLO SCHERMO PER ESEGUIRE L'AZIONE CORRISPONDENTE (ANNULLA, GIOCA, PAUSA...).</it>
+<fr>COMMANDES :\n\nTOUCHEZ POUR ACTIVER LA PAROI ÉLECTRIQUE DANS LE LABORATOIRE ET RENVOYER LA BALLE QUAND ELLE APPROCHE DU BAS DE L'ÉCRAN. TOUCHEZ LES AUTRES ICÔNES À L'ÉCRAN POUR RÉALISER L'ACTION CORRESPONDANTE (ANNULER, JOUER, PAUSE...).</fr>
+<ru/>
+<pt>CONTROLE:\n\nTOQUE PARA ATIVAR A PAREDE DE FORÇA PARA DEVOLVER A BOLA QUANDO ELA SE APROXIMAR DA PARTE INFERIOR DA TELA. TOQUE NOS OUTROS ÍCONES NA TELA PARA A AÇÃO CORRESPONDENTE (USAR DESFAZER, JOGAR, PAUSAR….).</pt>
+<tr/>
+</string>
+<string id="27" index="18">
+<en>CONTROLS:\n\n2 OR NAVIGATION KEY UP –  UP IN MENU, 8 OR NAVIGATION KEY DOWN – DOWN IN MENU, 5 OR CENTRAL NAVIGATION KEY – SELECT IN MENU, TURN ON BOTTOM WALL TO DEFLECT BALL, LEFT SOFT KEY – SELECT, RIGHT SOFT KEY – BACK, QUIT IN MAIN MENU</en>
+<sk>controls keyboard</sk>
+<es>CONTROL:\n\n2 O BOTÓN DE NAVEGACIÓN HACIA ARRIBA: ARRIBA EN EL MENÚ, 8 O BOTÓN DE NAVEGACIÓN HACIA ABAJO: ABAJO EN EL MENÚ, 5 O BOTÓN DE NAVEGACIÓN CENTRAL: SELECCIONAR EN EL MENÚ, ACTIVAR PARED INFERIOR PARA QUE REBOTE LA BOLA, BOTÓN DE SELECCIÓN IZQUIERDO: SELECCIONAR, BOTÓN DE SELECCIÓN DERECHO: ATRÁS, SALIR EN EL MENÚ PRINCIPAL</es>
+<cz/>
+<de>STEUERUNG:\n\n2 ODER OBERE NAVIGATIONSTASTE – HOCH IM MENÜ, 8 ODER UNTEREN NAVIGATION TASTE – RUNTER IM MENÜ, 5 ODER MITTLERE NAVIGATIONSTASTE – AUSWAHL IM MENÜ; AKTIVIEREN DER WAND UNTEN, UM BALL UMZULENKEN, LINKE FUNKTIONSTASTE – AUSWAHL, RECHTE FUNKTIONSTASTE – ZURÜCK; VERLASSEN IM HAUPTMENÜ</de>
+<it>COMANDI:\n\n2 O TASTO DI NAVIGAZIONE SU – SALI NEL MENU, 8 O TASTO DI NAVIGAZIONE GIÙ – SCENDI NEL MENU, 5 O TASTO DI NAVIGAZIONE CENTRALE – SELEZIONA NEL MENU, ATTIVA IL MURO DI ENERGIA PER DEVIARE LA PALLA, TASTO FUNZIONE SINISTRO – SELEZIONA, TASTO FUNZIONE DESTRO – INDIETRO, VAI AL MENU PRINCIPALE</it>
+<fr>COMMANDES :\n\n2 OU TOUCHE DE NAVIGATION HAUTE – EN HAUT DANS LE MENU, 8 OU TOUCHE DE NAVIGATION BASSE – EN BAS DANS LE MENU, 5 OU TOUCHE DE NAVIGATION CENTRALE – SÉLECTIONNER DANS LE MENU, ACTIVER LA PAROI DU FOND POUR RENVOYER LA BALLE, TOUCHE PROGRAMMABLE GAUCHE – SÉLECTIONNER, TOUCHE PROGRAMMABLE DROITE –  RETOUR, RETOUR AU MENU</fr>
+<ru/>
+<pt>CONTROLE:\n\n2 OU TECLA DE NAVEGAÇÃO PARA CIMA – SOBE NO MENU, 8 OU TECLA DE NAVEGAÇÃO PARA BAIXO – DESCE NO MENU, 5 OU  TECLA DE NAVEGAÇÃO CENTRAL – SELECIONA NO MENU, ATIVA A PAREDE BOTÕES PARA DESVIAR A BOLA, TECLA DE SELE – SELECIONAR, RIGHT SOFT KEY – RETORNAR, SAIR NO MENU PRINCIPAL</pt>
+<tr/>
+</string>
+<string id="3" index="19">
+<en>YES</en>
+<sk/>
+<es>SÍ</es>
+<cz/>
+<de>JA</de>
+<it/>
+<fr>OUI</fr>
+<ru/>
+<pt>SIM</pt>
+<tr/>
+</string>
+<string id="30" index="20">
+<en>PLAY AGAIN?</en>
+<sk/>
+<es>¿JUGAR DE NUEVO?</es>
+<cz/>
+<de>NEUES SPIEL?</de>
+<it/>
+<fr>REJOUEZ?</fr>
+<ru/>
+<pt>JOGUE NOVAMENTE?</pt>
+<tr/>
+</string>
+<string id="31" index="21">
+<en>ARE YOU SURE?</en>
+<sk/>
+<es>¿ESTÁS SEGURO?</es>
+<cz/>
+<de>BIST DU SICHER?</de>
+<it/>
+<fr>VOUS ÊTES SÛR ?</fr>
+<ru/>
+<pt>TENS A CERTEZA?</pt>
+<tr/>
+</string>
+<string id="INSTRUCTIONS" index="22">
+<en>INSTRUCTIONS</en>
+<sk/>
+<es>INSTRUCCIONES</es>
+<cz/>
+<de>ANLEITUNG</de>
+<it>ISTRUZIONI</it>
+<fr>INSTRUCTIONS</fr>
+<ru/>
+<pt>INSTRUÇÕES</pt>
+<tr/>
+</string>
+<string id="4" index="23">
+<en>NO</en>
+<sk/>
+<es>NO</es>
+<cz/>
+<de>NEIN</de>
+<it/>
+<fr>NON</fr>
+<ru/>
+<pt>NÃO</pt>
+<tr/>
+</string>
+<string id="48" index="24">
+<en>SCORE:</en>
+<sk/>
+<es>PUNTUACIÓN:</es>
+<cz/>
+<de>PUNKTE:</de>
+<it>PUNTEGGIO:</it>
+<fr>SCORE:</fr>
+<ru/>
+<pt>PONTUAÇÃO:</pt>
+<tr/>
+</string>
+<string id="BEST_SCORE" index="25">
+<en>BEST SCORE:</en>
+<sk/>
+<es>MEJOR PUNTUACIÓN:</es>
+<cz/>
+<de>TOPSCORE:</de>
+<it>RECORD:</it>
+<fr>MEILLEUR SCORE:</fr>
+<ru/>
+<pt>MELHOR PONTUAÇÃO:</pt>
+<tr/>
+</string>
+<string id="5" index="26">
+<en>MENU</en>
+<sk>bb label</sk>
+<es>MENÚ</es>
+<cz/>
+<de>MENÜ</de>
+<it>MENU</it>
+<fr>MENU</fr>
+<ru/>
+<pt>MENU</pt>
+<tr/>
+</string>
+<string id="50" index="27">
+<en>QUIT</en>
+<sk/>
+<es>FIN</es>
+<cz/>
+<de>ENDE</de>
+<it>TEST</it>
+<fr>ARRÊTER</fr>
+<ru/>
+<pt>FIM</pt>
+<tr/>
+</string>
+<string id="51" index="28">
+<en>RETRY?</en>
+<sk/>
+<es>VOLVER A INTENTAR?</es>
+<cz/>
+<de>ERNEUT VERSUCHEN?</de>
+<it>RIPROVA?</it>
+<fr>RÉESSAYER?</fr>
+<ru/>
+<pt>TENTAR NOVAMENTE?</pt>
+<tr/>
+</string>
+<string id="BACK" index="29">
+<en>BACK</en>
+<sk>bb label</sk>
+<es>VOLVER</es>
+<cz/>
+<de>ZURÜCK</de>
+<it>INDIETRO</it>
+<fr>RETOUR</fr>
+<ru/>
+<pt>VOLTAR</pt>
+<tr/>
+</string>
+<string id="PLAY" index="30">
+<en>PLAY</en>
+<sk/>
+<es>JUGAR</es>
+<cz/>
+<de>SPIELEN</de>
+<it>GIOCA</it>
+<fr>JOUER</fr>
+<ru/>
+<pt>JOGAR</pt>
+<tr/>
+</string>
+<string id="GAME_GOAL" index="31">
+<en>AIM:\n\nKEEP THE ACCELERATING BALL IN THE LABORATORY AS LONG AS POSSIBLE THROUGH THE ACTIVATING POWER WALL.</en>
+<sk>instructions</sk>
+<es>OBJETIVO:\n\nMANTÉN LA BOLA EN EL LABORATORIO TODO EL TIEMPO QUE PUEDAS ACTIVANDO LA PARED ELÉCTRICA.</es>
+<cz/>
+<de>ZIEL:\n\nHALTE DEN SCHNELLER WERDENDEN BALL DURCH AKTIVIEREN DER ENERGIEWAND SO LANGE WIE MÖGLICH IM LABOR.</de>
+<it>OBIETTIVO:\n\nMANTIENI LA VELOCISSIMA PALLA NEL LABORATORIO IL PIÙ A LUNGO POSSIBILE ATTIVANDO IL MURO DI ENERGIA.</it>
+<fr>OBJECTIF :\n\nGARDEZ LA BALLE QUI ACCÉLÈRE DANS LE LABORATOIRE LE PLUS POSSIBLE EN ACTIVANT LA PAROI ÉLECTRIQUE.</fr>
+<ru/>
+<pt>OBJETIVO:\n\nCONTINUE ACELERANDO A BOLA NONO LABORATÓRIO PELO MAIOR TEMPO QUE VOCÊ PUDER ATIVANDO A PAREDE.</pt>
+<tr/>
+</string>
+<string id="9" index="32">
+<en>SOUND</en>
+<sk/>
+<es>SONIDO</es>
+<cz/>
+<de>TON</de>
+<it>SONORO</it>
+<fr>SON</fr>
+<ru/>
+<pt>SOM</pt>
+<tr/>
+</string>
+
+<string id="SLOWDOWN" index="0">
+<en>Slow down</en>
+<es>Frenar</es>
+<de>Langsamer</de>
+<it>Rallenta</it>
+<fr>Ralentir</fr>
+<pt>Desacelere</pt>
+</string>
+
+<string id="DOUBLE_POINTS" index="0">
+<en>Double points</en>
+<es>Puntos dobles</es>
+<de>Doppelte Punkte</de>
+<it>Punti doppi</it>
+<fr>Points doublés</fr>
+<pt>Pontos duplos</pt>
+</string>
+
+<string id="TAP_TO_START" index="0">
+<en>Tap to Start</en>
+<de>Tippe, zum Starten</de>
+<es>Toca para comenzar</es>
+<fr>Touchez pour commencer</fr>
+<it>Tocca per iniziare</it>
+<pt>Toque para Iniciar</pt>
+</string>
+
+<string id="POWERWALL" index="0">
+<en>POWERWALL</en>
+<de>Energiewand</de>
+<es>pared eléctrica</es>
+<fr>paroi électrique</fr>
+<it>muro di energia</it>
+<pt>parede de força</pt>
+</string>
+
+<string id="RETRY" index="25">
+<en>RETRY</en>
+<es>REINTENTAR</es>
+<de>NEUER\nVERSUCH</de>
+<it>RIPROVARE</it>
+<fr>RÉESSAYER</fr>
+<pt>TENTAR\nNOVAMENTE</pt>
+</string>
+
+</strings>
+</stringresources>

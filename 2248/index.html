@@ -1,26 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>2248 - Reklamlı</title>
-  <style>
-    body { margin:0; background:#000; height:100vh; }
-    #ad, #game { width:100%; height:100%; border:none; }
-    #game { display:none; }
-  </style>
-  <script>
-    function showGame() {
-      document.getElementById("ad").style.display = "none";
-      document.getElementById("game").style.display = "block";
-    }
-    setTimeout(showGame, 5000); // 5 saniye sonra oyuna geç
-  </script>
-</head>
-<body>
-  <!-- Reklam iframe -->
-  <iframe id="ad" src="ad.html"></iframe>
+<iframe id="ad" src="https://script.google.com/macros/s/AKfycbzFvffFvpg6wKC-OuQfa1982VfrtqcD_pgXLQf19KLp8qNKs3URCwkAMl88c6yBuFM/exec"></iframe>
 
-  <!-- Oyun iframe -->
-  <iframe id="game" src="index_original.html"></iframe>
-</body>
-</html>
+<iframe id="game" src="index_original.html"></iframe>
+
+<script>
+  function showGame() {
+    document.getElementById("ad").style.display = "none";
+    document.getElementById("game").style.display = "block";
+  }
+  setTimeout(showGame, 8000); // 8 saniye beklet
+</script>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Divide</title>
+<style>
+  #animation_container {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+  }
+</style>
+<script src="libs/createjs-2018.06.12.min.js"></script>
+<script type='text/javascript' src='libs/Preloader.js'></script>
+
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(204, 204, 204, 1.00); width:640px; height:480px">
+		<canvas id="canvas2" width="1024" height="768" style="position: fixed; left: 0; top: 0; display: block; background-color:rgba(204, 204, 204, 1.00);"></canvas>
+		<canvas id="canvas" width="1024" height="768" style="position: absolute; display: block; background-color:rgba(204, 204, 204, 0);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:640px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
+</body>
+</html>

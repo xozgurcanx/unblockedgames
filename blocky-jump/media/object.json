@@ -1,0 +1,60 @@
+{"frames": {
+
+"box":
+{
+	"frame": {"x":158,"y":2,"w":75,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":86},
+	"sourceSize": {"w":75,"h":86}
+},
+"fire":
+{
+	"frame": {"x":298,"y":2,"w":70,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":44},
+	"sourceSize": {"w":70,"h":44}
+},
+"gem":
+{
+	"frame": {"x":298,"y":48,"w":47,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":48},
+	"sourceSize": {"w":47,"h":48}
+},
+"nail1":
+{
+	"frame": {"x":80,"y":2,"w":76,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":101},
+	"sourceSize": {"w":76,"h":101}
+},
+"nail2":
+{
+	"frame": {"x":2,"y":2,"w":76,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":101},
+	"sourceSize": {"w":76,"h":101}
+},
+"tnt":
+{
+	"frame": {"x":235,"y":2,"w":61,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":65},
+	"sourceSize": {"w":61,"h":65}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "object.png",
+	"format": "RGBA8888",
+	"size": {"w":370,"h":105},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4883b8e2733e30fb7b8a247dc6f10d14:1/1$"
+}
+}

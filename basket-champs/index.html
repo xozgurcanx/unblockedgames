@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basket Champs</title>
+    <meta charset="utf-8">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Basket Champs">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=no minimal-ui" />
+
+    <style>
+
+        html {height: 100%;}
+
+        * { -webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+        body {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            margin: 0px 0px 1px 0px; /* the extra 1px allows the iOS inner/outer check to work */
+            background: rgb(0, 0, 0);
+            height: 100%;
+        }
+
+        #content {
+            margin: 0 auto;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+         #orientation {
+            margin: 0 auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(assets/rotate-device.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: rgb(0, 0, 0);
+            z-index: 999;
+            display: none;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+
+        function HTML5API_levelStarted() {
+            window.HTML5API && HTML5API.levelStarted && HTML5API.levelStarted();
+        }
+
+        function HTML5API_levelEnded() {
+            window.HTML5API && HTML5API.levelEnded && HTML5API.levelEnded();
+        }
+        
+        function HTML5API_preloaderStarted() {
+            window.HTML5API && HTML5API.preloaderStarted && HTML5API.preloaderStarted();
+        }
+
+        function HTML5API_preloaderEnded() {
+            window.HTML5API && HTML5API.preloaderEnded && HTML5API.preloaderEnded();
+        }
+
+        function HTML5API_onAdStart(func) { return window.HTML5API && HTML5API.onAdStart && HTML5API.onAdStart(func); }
+        function HTML5API_onAdComplete(func) { return window.HTML5API && HTML5API.onAdComplete && HTML5API.onAdComplete(func); }
+        function HTML5API_displayMidroll() { window.HTML5API && HTML5API.displayMidroll && HTML5API.displayMidroll(); }
+        function HTML5API_isMidrollPending() { return window.HTML5API && HTML5API.isMidrollPending && HTML5API.isMidrollPending(); }
+
+        // returns notification id which can be used for canceling
+        function HTML5API_sendLocalNotification(delayMS, iconUrl, title, text, bigContentTitle, bigContentText, gameExtras) {
+            return window.HTML5API && HTML5API.sendLocalNotification && HTML5API.sendLocalNotification(delayMS, iconUrl, title, text, bigContentTitle, bigContentText, gameExtras);
+        }
+        function HTML5API_cancelLocalNotification(id) {
+            return window.HTML5API && HTML5API.cancelLocalNotification && HTML5API.cancelLocalNotification(id);
+        }
+    </script>
+
+    <script src="js/phaser.min.js"></script>
+    <script src="js/box2d-plugin-full.min.js"></script>
+    <script src="js/basket-champs.min.js?v=1.3"></script>
+
+</head>
+
+<body>
+
+<div id="content"></div>
+<div id="orientation"></div>
+
+</body>
+</html>

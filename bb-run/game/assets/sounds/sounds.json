@@ -1,0 +1,140 @@
+{
+  "urls": [
+    "game/assets/sounds/sounds.mp3",
+    "game/assets/sounds/sounds.ogg"
+  ],
+  "sprite": {
+    "burn_on_basket_touch": [
+      0,
+      1020
+    ],
+    "burn_start": [
+      3000,
+      1336
+    ],
+    "button_click": [
+      6000,
+      60
+    ],
+    "confetti_burst_1": [
+      8000,
+      896
+    ],
+    "confetti_burst_2": [
+      10000,
+      1105
+    ],
+    "ev_border_ball_0": [
+      13000,
+      318
+    ],
+    "ev_bounce_circle_1": [
+      15000,
+      355
+    ],
+    "ev_coin": [
+      17000,
+      718
+    ],
+    "ev_collision_net_0": [
+      19000,
+      218
+    ],
+    "ev_confetti_melody": [
+      21000,
+      1786
+    ],
+    "ev_fireball_release_1": [
+      24000,
+      1764
+    ],
+    "ev_gameover": [
+      27000,
+      2159
+    ],
+    "ev_hoop_ball_0": [
+      31000,
+      394
+    ],
+    "ev_release_high": [
+      33000,
+      193
+    ],
+    "ev_release_low": [
+      35000,
+      148
+    ],
+    "ev_release_mid": [
+      37000,
+      176
+    ],
+    "ev_score_bounce": [
+      39000,
+      428
+    ],
+    "ev_score_perfect_1": [
+      41000,
+      701
+    ],
+    "ev_score_perfect_10": [
+      43000,
+      714
+    ],
+    "ev_score_perfect_2": [
+      45000,
+      717
+    ],
+    "ev_score_perfect_3": [
+      47000,
+      700
+    ],
+    "ev_score_perfect_4": [
+      49000,
+      722
+    ],
+    "ev_score_perfect_5": [
+      51000,
+      716
+    ],
+    "ev_score_perfect_6": [
+      53000,
+      712
+    ],
+    "ev_score_perfect_7": [
+      55000,
+      708
+    ],
+    "ev_score_perfect_8": [
+      57000,
+      717
+    ],
+    "ev_score_perfect_9": [
+      59000,
+      711
+    ],
+    "ev_score_simple": [
+      61000,
+      639
+    ],
+    "ev_star_multiplier_2": [
+      63000,
+      1176
+    ],
+    "ev_wall_obstacle": [
+      66000,
+      329
+    ],
+    "timer_1": [
+      68000,
+      243
+    ],
+    "timer_2": [
+      70000,
+      243
+    ],
+    "timer_buzz": [
+      72000,
+      1806
+    ]
+  }
+}

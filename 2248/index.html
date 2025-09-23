@@ -4,10 +4,6 @@
   <meta charset="UTF-8" />
   <title>2248</title>
   <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1.0, minimal-ui, user-scalable=no' />
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-touch-fullscreen" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <style>
     body, html {
       margin:0; padding:0; height:100%; background:#000; overflow:hidden;
@@ -21,33 +17,28 @@
     function showGame() {
       document.getElementById("adLayer").style.display = "none";
       document.getElementById("gameLayer").style.display = "block";
+
+      // Oyun scriptlerini reklam süresi bitince yükle
+      var scripts = ["js/Publisher.js", "js/phaser.min.js", "js/game.min.js"];
+      scripts.forEach(src => {
+        var s = document.createElement("script");
+        s.src = src;
+        document.body.appendChild(s);
+      });
     }
-    setTimeout(showGame, 10000); // 10 saniye reklam sonra oyun
+    setTimeout(showGame, 10000); // 10 saniye sonra oyuna geç
   </script>
 </head>
 <body>
 
-  <!-- Reklam Alanı -->
+  <!-- Reklam Katmanı -->
   <div id="adLayer">
     <iframe src="https://script.google.com/macros/s/AKfycbzFvffFvpg6wKC-OuQfa1982VfrtqcD_pgXLQf19KLp8qNKs3URCwkAMl88c6yBuFM/exec"
             style="width:100%;height:100%;border:none;"></iframe>
   </div>
 
-  <!-- Oyun Alanı -->
-  <div id="gameLayer">
-    <script>
-       window.addEventListener("load", function() {
-         function onTouchPreventDefault(event) { event.preventDefault(); if(game.paused)game.paused=false; };
-         document.addEventListener("touchmove", onTouchPreventDefault, false);
-         document.addEventListener("touchstart", onTouchPreventDefault, false);
-       }, false);
-       window.addEventListener('scroll', function () { document.body.scrollTop = 0; }, true);
-       window.addEventListener('resize', function () { document.body.scrollTop = 0; }, true);
-    </script>
-    <script src="js/Publisher.js"></script>
-    <script src="js/phaser.min.js"></script>
-    <script src="js/game.min.js"></script>
-  </div>
+  <!-- Oyun Katmanı -->
+  <div id="gameLayer"></div>
 
 </body>
 </html>

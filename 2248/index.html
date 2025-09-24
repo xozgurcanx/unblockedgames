@@ -10,13 +10,13 @@
             position:fixed; top:0; left:0; width:100%; height:100%;
             background:#000; z-index:9999; display:flex; align-items:center; justify-content:center; flex-direction:column;
         }
-        #countdown { color:#fff; font-size:20px; margin-top:20px; }
+        #countdown { color:#fff; font-size:22px; margin-top:20px; font-family:sans-serif; }
         #overlay iframe { width:100%; height:80%; border:none; }
     </style>
     <script>
       let timeLeft = 10;
       function updateCountdown(){
-        document.getElementById("countdown").innerText = 
+        document.getElementById("countdown").innerText =
           "Oyun " + timeLeft + " saniye sonra başlayacak";
         if(timeLeft <= 0){
           document.getElementById("overlay").style.display = "none";
@@ -25,7 +25,7 @@
           setTimeout(updateCountdown, 1000);
         }
       }
-      window.onload = updateCountdown;
+      document.addEventListener("DOMContentLoaded", updateCountdown);
     </script>
 
     <!-- Orijinal oyun scriptleri -->

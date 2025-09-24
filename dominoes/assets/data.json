@@ -1,0 +1,21 @@
+{
+	"settings":
+	{
+		"victory_score":
+		{
+			"draw": 100,
+			"all_fives": 150,
+			"block": 100
+		},
+
+		"ai_easy_all_fives":
+		{
+			"enable": true,
+			"mistake_percent": 0.5
+		},
+
+		"achievement_popup_display_time": 2.5,
+
+		"cheats": true
+	}
+}

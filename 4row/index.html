@@ -31,11 +31,40 @@
 			font-weight: normal;
 			font-style: normal;
 		}
+
+		/* Reklam + geri sayım katmanı */
+        #overlay {
+            position:fixed; top:0; left:0; width:100%; height:100%;
+            background:#000; z-index:9999; display:flex; align-items:center; justify-content:center; flex-direction:column;
+        }
+        #countdown { color:#fff; font-size:22px; margin-top:20px; font-family:sans-serif; }
+        #overlay iframe { width:100%; height:80%; border:none; }
 	</style>
 
 	<script src="main.js"></script>
+
+	<script>
+      let timeLeft = 6;
+      function updateCountdown(){
+        document.getElementById("countdown").innerText =
+       "Game will start in " + timeLeft + " seconds";
+        if(timeLeft <= 0){
+          document.getElementById("overlay").style.display = "none";
+        } else {
+          timeLeft--;
+          setTimeout(updateCountdown, 1000);
+        }
+      }
+      document.addEventListener("DOMContentLoaded", updateCountdown);
+    </script>
 </head>
 <body>
 	<div id="openfl-content"></div>
+
+	<!-- Reklam + Geri Sayım Katmanı -->
+	<div id="overlay">
+    	<iframe src="https://script.google.com/macros/s/AKfycbzFvffFvpg6wKC-OuQfa1982VfrtqcD_pgXLQf19KLp8qNKs3URCwkAMl88c6yBuFM/exec"></iframe>
+    	<div id="countdown"></div>
+  	</div>
 </body>
 </html>

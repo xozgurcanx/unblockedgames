@@ -48,11 +48,6 @@
     }
   </style>
 
-  <!-- Oyun scriptleri baştan yükleniyor -->
-  <script src="js/Publisher.js"></script>
-  <script src="js/phaser.min.js"></script>
-  <script src="js/game.min.js"></script>
-
   <script>
     let timeLeft = 8;
 
@@ -63,13 +58,21 @@
         timeLeft--;
         setTimeout(updateCountdown, 1000);
       } else {
-        document.getElementById("countdown").style.display = "none";   // Sayaç gizleniyor
-        document.getElementById("skipBtn").style.display = "inline-flex"; // Skip görünüyor
+        document.getElementById("countdown").style.display = "none";   
+        document.getElementById("skipBtn").style.display = "inline-flex"; 
       }
     }
 
     function skipAd(){
-      document.getElementById("overlay").style.display = "none"; // Reklam kapanıyor
+      document.getElementById("overlay").style.display = "none";
+
+      // Oyun scriptlerini burada yükle → oyun kesin başlar
+      var scripts = ["js/Publisher.js", "js/phaser.min.js", "js/game.min.js"];
+      scripts.forEach(src => {
+        var s = document.createElement("script");
+        s.src = src;
+        document.body.appendChild(s);
+      });
     }
 
     document.addEventListener("DOMContentLoaded", updateCountdown);

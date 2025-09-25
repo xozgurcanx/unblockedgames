@@ -28,7 +28,7 @@
 
     /* Skip butonu */
     #skipBtn {
-      display:none;
+      display:none; /* Başta gizli */
       margin-top:20px;
       color: #fff;
       background: #2A8476;
@@ -63,13 +63,13 @@
         timeLeft--;
         setTimeout(updateCountdown, 1000);
       } else {
-        document.getElementById("countdown").style.display = "none";
-        document.getElementById("skipBtn").style.display = "inline-flex";
+        document.getElementById("countdown").style.display = "none";   // Sayaç gizleniyor
+        document.getElementById("skipBtn").style.display = "inline-flex"; // Skip görünüyor
       }
     }
 
     function skipAd(){
-      document.getElementById("overlay").style.display = "none";
+      document.getElementById("overlay").style.display = "none"; // Reklam kapanıyor
     }
 
     document.addEventListener("DOMContentLoaded", updateCountdown);

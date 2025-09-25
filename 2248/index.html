@@ -37,12 +37,9 @@
     }
   </style>
 
-  <script src="js/Publisher.js"></script>
-  <script src="js/phaser.min.js"></script>
-  <script src="js/game.min.js"></script>
-
   <script>
     let timeLeft = 8;
+
     function updateCountdown(){
       if(timeLeft > 0){
         document.getElementById("countdown").innerText =
@@ -55,8 +52,16 @@
       }
     }
 
-    function skipAd(){
+    function startGame(){
       document.getElementById("overlay").style.display = "none";
+
+      // Oyun scriptlerini yükle
+      var scripts = ["js/Publisher.js", "js/phaser.min.js", "js/game.min.js"];
+      scripts.forEach(src => {
+        var s = document.createElement("script");
+        s.src = src;
+        document.body.appendChild(s);
+      });
     }
 
     document.addEventListener("DOMContentLoaded", updateCountdown);
@@ -69,7 +74,7 @@
   <div id="overlay">
     <iframe src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
     <div id="countdown"></div>
-    <button id="skipBtn" onclick="skipAd()">Skip</button>
+    <button id="skipBtn" onclick="startGame()">Skip</button>
   </div>
 </body>
 </html>

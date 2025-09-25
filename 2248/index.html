@@ -25,56 +25,24 @@
     }
     #countdown { color:#fff; font-size:22px; margin-top:20px; font-family:sans-serif; }
     #overlay iframe { width:100%; height:80%; border:none; }
-
-    /* Skip butonu */
-    #skipBtn {
-      display:none; /* Başta gizli */
-      margin-top:20px;
-      color: #fff;
-      background: #2A8476;
-      border-color: #309787 #247165 #247165 #309787;
-      padding: 15px 35px;
-      font-size: 20px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      cursor: pointer;
-      border: 1px solid transparent;
-      border-radius: 8px;
-      text-align: center;
-      font: 16px / 1.6 sans-serif;
-      font-weight: 400;
-    }
   </style>
+
+  <script src="js/Publisher.js"></script>
+  <script src="js/phaser.min.js"></script>
+  <script src="js/game.min.js"></script>
 
   <script>
     let timeLeft = 8;
-
     function updateCountdown(){
-      if(timeLeft > 0){
-        document.getElementById("countdown").innerText =
-          "Game will start in " + timeLeft + " seconds";
+      document.getElementById("countdown").innerText =
+       "Game will start in " + timeLeft + " seconds";
+      if(timeLeft <= 0){
+        document.getElementById("overlay").style.display = "none";
+      } else {
         timeLeft--;
         setTimeout(updateCountdown, 1000);
-      } else {
-        document.getElementById("countdown").style.display = "none";   
-        document.getElementById("skipBtn").style.display = "inline-flex"; 
       }
     }
-
-    function skipAd(){
-      document.getElementById("overlay").style.display = "none";
-
-      // Oyun scriptlerini burada yükle → oyun kesin başlar
-      var scripts = ["js/Publisher.js", "js/phaser.min.js", "js/game.min.js"];
-      scripts.forEach(src => {
-        var s = document.createElement("script");
-        s.src = src;
-        document.body.appendChild(s);
-      });
-    }
-
     document.addEventListener("DOMContentLoaded", updateCountdown);
   </script>
 </head>
@@ -85,7 +53,6 @@
   <div id="overlay">
     <iframe src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
     <div id="countdown"></div>
-    <button id="skipBtn" onclick="skipAd()">Skip</button>
   </div>
 </body>
 </html>

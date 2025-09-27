@@ -52,9 +52,10 @@
 }
 .container {
     display:flex;
+    justify-content:center; /* ortalar */
     gap:10px; /* reklamlar arasında boşluk */
 }
-.adframe {
+.ad {
     width:300px; 
     height:600px; 
     border:none;
@@ -76,11 +77,11 @@
 </head>
 <body>
 <div id="overlay">
-   <div class="ads">
+   <div class="container">
       <!-- 1. Reklam -->
-      <iframe src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
-      <!-- 2. Reklam -->
-      <iframe src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
+      <iframe class="ad" src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
+      <!-- 2. Reklam (aynısı) -->
+      <iframe class="ad" src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
    </div>
    <div id="countdown"></div>
 </div>

@@ -40,30 +40,32 @@
             background-color:   #000000;
             overflow:           hidden;
         }
-         #overlay {
-       position:fixed; 
-       top:0; 
-       left:0; 
-       width:100%; 
-       height:100%;
-       background:#000; 
-       z-index:9999; 
-       display:flex; 
-       align-items:center; 
-       justify-content:center; 
-       flex-direction:column;
-   }
-   #countdown { 
-       color:#fff; 
-       font-size:22px; 
-       margin-top:20px; 
-       font-family:sans-serif; 
-   }
-   #overlay iframe { 
-       width:100%; 
-       height:80%; 
-       border:none; 
-   }
+#overlay {
+    position:fixed; 
+    top:0; left:0; width:100%; height:100%;
+    background:#000; 
+    z-index:9999; 
+    display:flex; 
+    flex-direction:column;
+    align-items:center; 
+    justify-content:center;
+}
+.container {
+    display:flex;
+    gap:10px; /* reklamlar arasında boşluk */
+}
+.adframe {
+    width:300px; 
+    height:600px; 
+    border:none;
+    background:#111;
+}
+#countdown {
+    color:#fff; 
+    font-size:22px; 
+    margin-top:20px; 
+    font-family:sans-serif;
+}
     </style>
     <script src="js/Publisher.js"></script>
     <script src="js/phaser.min.js"></script>
@@ -73,10 +75,15 @@
 
 </head>
 <body>
-  <div id="overlay">
+<div id="overlay">
+   <div class="ads">
+      <!-- 1. Reklam -->
       <iframe src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
-      <div id="countdown"></div>
+      <!-- 2. Reklam -->
+      <iframe src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
    </div>
+   <div id="countdown"></div>
+</div>
 
    <script>
    let timeLeft = 8; // geri sayım süresi (saniye)

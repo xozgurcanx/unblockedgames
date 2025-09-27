@@ -1,44 +1,96 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <title>2248</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1.0, minimal-ui, user-scalable=no' />
-  <style>
-    body, html {
-      margin:0; padding:0; height:100%; background:#000; overflow:hidden;
-    }
-    #adLayer, #gameLayer {
-      position:absolute; top:0; left:0; width:100%; height:100%;
-    }
-    #gameLayer { display:none; }
-  </style>
-  <script>
-    function showGame() {
-      document.getElementById("adLayer").style.display = "none";
-      document.getElementById("gameLayer").style.display = "block";
+    <meta charset="UTF-8" />
+    <title>2248</title>
+    <meta name='viewport' content='width = device-width, initial-scale=1, maximum-scale=1.0, minimal-ui, user-scalable=no' />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <script>
+       window.addEventListener("load", function() {
+       function onTouchPreventDefault(event) { event.preventDefault(); if(game.paused)game.paused=false; };
+       document.addEventListener("touchmove", onTouchPreventDefault, false);
+       document.addEventListener("touchstart", onTouchPreventDefault, false);
+       }, false);
+	window.addEventListener('scroll', function ()
+       {
+           document.body.scrollTop = 0;
+       }, true);
 
-      // Oyun scriptlerini reklam süresi bitince yükle
-      var scripts = ["js/Publisher.js", "js/phaser.min.js", "js/game.min.js"];
-      scripts.forEach(src => {
-        var s = document.createElement("script");
-        s.src = src;
-        document.body.appendChild(s);
-      });
-    }
-    setTimeout(showGame, 10000); // 10 saniye sonra oyuna geç
-  </script>
+       window.addEventListener('resize', function ()
+       {
+           document.body.scrollTop = 0;
+       }, true);
+
+   </script>
+    <style type="text/css">
+        BODY, HTML {
+            -webkit-touch-callout: none;
+            -webkit-text-size-adjust: none;
+            -webkit-user-select: none;
+            -webkit-tap-highlight-color: transparent;
+            margin:             0;
+            padding:            0;
+            font-family:        Arial, Verdana, sans-serif;
+            font-size:          12px;
+            font-weight:        normal;
+            color:              #ccc;
+            background-color:   #000000;
+            overflow:           hidden;
+        }
+         #overlay {
+       position:fixed; 
+       top:0; 
+       left:0; 
+       width:100%; 
+       height:100%;
+       background:#000; 
+       z-index:9999; 
+       display:flex; 
+       align-items:center; 
+       justify-content:center; 
+       flex-direction:column;
+   }
+   #countdown { 
+       color:#fff; 
+       font-size:22px; 
+       margin-top:20px; 
+       font-family:sans-serif; 
+   }
+   #overlay iframe { 
+       width:100%; 
+       height:80%; 
+       border:none; 
+   }
+    </style>
+    <script src="js/Publisher.js"></script>
+    <script src="js/phaser.min.js"></script>
+    <script src="js/game.min.js"></script>
+
+
+
 </head>
 <body>
+  <div id="overlay">
+      <iframe src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
+      <div id="countdown"></div>
+   </div>
 
-  <!-- Reklam Katmanı -->
-  <div id="adLayer">
-    <iframe src="https://script.google.com/macros/s/AKfycbzFvffFvpg6wKC-OuQfa1982VfrtqcD_pgXLQf19KLp8qNKs3URCwkAMl88c6yBuFM/exec"
-            style="width:100%;height:100%;border:none;"></iframe>
-  </div>
-
-  <!-- Oyun Katmanı -->
-  <div id="gameLayer"></div>
-
+   <script>
+   let timeLeft = 8; // geri sayım süresi (saniye)
+   function updateCountdown(){
+     document.getElementById("countdown").innerText =
+      "Game will start in " + timeLeft + " seconds";
+     if(timeLeft <= 0){
+       document.getElementById("overlay").style.display = "none";
+     } else {
+       timeLeft--;
+       setTimeout(updateCountdown, 1000);
+     }
+   }
+   document.addEventListener("DOMContentLoaded", updateCountdown);
+   </script>
 </body>
 </html>

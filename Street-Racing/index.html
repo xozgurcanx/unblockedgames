@@ -5,40 +5,8 @@
  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, minimum-scale=1">
  
  <title>raceinferno2</title>
-<style>
-html,body{width:100%;height:100%;background-color:#211119;max-height:100%;overflow:hidden;margin:0;padding:0}
-body{width:100%;height:100%;z-index:1;position:fixed;top:0;transform-origin:center center;touch-action:none;-ms-touch-action:none}
-canvas{position:absolute;z-index:10}
-.bg{background-image:url(game/assets/unpacked/background.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}
-
-/* Reklam + geri sayım katmanı */
-#overlay {
-    position:fixed; 
-    top:0; 
-    left:0; 
-    width:100%; 
-    height:100%;
-    background:#000; 
-    z-index:9999; 
-    display:flex; 
-    align-items:center; 
-    justify-content:center; 
-    flex-direction:column;
-}
-#countdown { 
-    color:#fff; 
-    font-size:22px; 
-    margin-top:20px; 
-    font-family:sans-serif; 
-}
-#overlay iframe { 
-    width:100%; 
-    height:80%; 
-    border:none; 
-}
-</style>
-<script>
-var gid = 'raceinferno2'; 
+<style>html,body{width:100%;height:100%;background-color:#211119;max-height:100%;overflow:hidden;margin:0;padding:0}body{width:100%;height:100%;z-index:1;position:fixed;top:0;transform-origin:center center;touch-action:none;-ms-touch-action:none}canvas{position:absolute;z-index:10}.bg{background-image:url(game/assets/unpacked/background.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}</style>
+<script>var gid = 'raceinferno2'; 
 function __gb_gup(name) { 
  var url = location.href; 
  var regexS = '[\\?&]'+name+'=([^&#]*)'; 
@@ -85,30 +53,9 @@ function onGameJsLoaded() {
     } 
     var label = (success == true) ? 'success' : 'failure'; 
 } 
-
-/* Geri sayım scripti */
-let timeLeft = 8;
-function updateCountdown(){
-  document.getElementById("countdown").innerText =
-   "Game will start in " + timeLeft + " seconds";
-  if(timeLeft <= 0){
-    document.getElementById("overlay").style.display = "none";
-  } else {
-    timeLeft--;
-    setTimeout(updateCountdown, 1000);
-  }
-}
-document.addEventListener("DOMContentLoaded", updateCountdown);
 </script>
 </head>
 <body class="bg">
 <script src="build/game.min.js" onload="onGameJsLoaded()"></script>
-
-<!-- Reklam + Geri Sayım Katmanı -->
-<div id="overlay">
-   <iframe src="https://script.google.com/macros/s/AKfycbxcyLvAmFJl9ro4ozo2YWHRFM4Ipti51Jbnv9X72ypsnPqronykHOFNXZcuKXfjJtUoDw/exec"></iframe>
-   <div id="countdown"></div>
-</div>
-
 </body>
 </html>

@@ -1,0 +1,18 @@
+{
+	"initial": [
+		"js/egret.min_3f097048.js",
+		"js/egret.web.min_6ba890da.js",
+		"js/eui.min_3abd2ff.js",
+		"js/assetsmanager.min_ea741b7d.js",
+		"js/tween.min_6c5a88f9.js",
+		"js/game.min_45aa06f6.js",
+		"js/promise.min_83a6a5d.js",
+		"js/mouse.min_cbfd4dc0.js",
+		"js/keyboard.min_450cfce3.js",
+		"js/physics.min_d425a559.js"
+	],
+	"game": [
+		"js/default.thm_3c648fd7.js",
+		"js/main.min_635ceef6.js"
+	]
+}

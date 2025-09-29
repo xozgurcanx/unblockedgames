@@ -1,0 +1,153 @@
+
+world_open.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_ok
+  rotate: false
+  xy: 137, 130
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+world_number
+  rotate: false
+  xy: 137, 130
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+eff
+  rotate: true
+  xy: 302, 669
+  size: 143, 182
+  orig: 143, 182
+  offset: 0, 0
+  index: -1
+eff_3
+  rotate: false
+  xy: 486, 710
+  size: 179, 102
+  orig: 179, 102
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 800, 808
+  size: 70, 58
+  orig: 70, 58
+  offset: 0, 0
+  index: -1
+light_eff
+  rotate: false
+  xy: 246, 601
+  size: 49, 55
+  orig: 49, 55
+  offset: 0, 0
+  index: -1
+mission_star_1
+  rotate: false
+  xy: 2, 473
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+mission_star_2
+  rotate: false
+  xy: 2, 2
+  size: 131, 112
+  orig: 131, 112
+  offset: 0, 0
+  index: -1
+mission_star_3
+  rotate: false
+  xy: 2, 288
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+mission_star_4
+  rotate: false
+  xy: 667, 754
+  size: 131, 112
+  orig: 131, 112
+  offset: 0, 0
+  index: -1
+ribbon
+  rotate: false
+  xy: 2, 814
+  size: 662, 204
+  orig: 662, 204
+  offset: 0, 0
+  index: -1
+ribbon_minion_1
+  rotate: false
+  xy: 800, 760
+  size: 52, 46
+  orig: 52, 46
+  offset: 0, 0
+  index: -1
+ribbon_minion_2
+  rotate: true
+  xy: 137, 151
+  size: 135, 133
+  orig: 135, 133
+  offset: 0, 0
+  index: -1
+ribbon_minion_3
+  rotate: false
+  xy: 944, 897
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+ribbon_minion_4
+  rotate: true
+  xy: 486, 670
+  size: 38, 43
+  orig: 38, 43
+  offset: 0, 0
+  index: -1
+ribbon_minion_5
+  rotate: false
+  xy: 667, 712
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+ribbon_minion_6
+  rotate: false
+  xy: 2, 116
+  size: 133, 170
+  orig: 133, 170
+  offset: 0, 0
+  index: -1
+ribbon_minion_7
+  rotate: false
+  xy: 944, 958
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 872, 824
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+text_open
+  rotate: false
+  xy: 666, 868
+  size: 276, 150
+  orig: 276, 150
+  offset: 0, 0
+  index: -1
+text_world
+  rotate: false
+  xy: 2, 658
+  size: 298, 154
+  orig: 298, 154
+  offset: 0, 0
+  index: -1

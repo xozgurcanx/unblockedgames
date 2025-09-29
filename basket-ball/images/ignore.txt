@@ -1,0 +1,5 @@
+cursor.png
+touch-helper.png
+interstitial-close.png
+interstitial-ad.png
+interstitial-play.png

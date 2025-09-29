@@ -1,0 +1,32 @@
+BTN_PLAY ; Play
+BTN_RESUME ; Resume
+BTN_RESTART ; Restart
+BTN_LEVEL_MAP ; Level map
+BTN_MORE_GAMES ; More Games
+BTN_LEADERBOARD ; Leaderboard
+BTN_INVITE_FRIENDS ; Invite friends
+TXT_LOCKED ; Locked
+TXT_START ; Start
+TXT_SCORE_GAME ; score
+TXT_SCORE ; Score:
+TXT_LEVEL ; level
+TXT_PAUSED ; Paused
+TXT_CLICK_TO_CONTINUE ; Click to continue
+TXT_HIGHSCORE ; Highscore:
+TXT_NEW_HIGHSCORE ; NEW HIGHSCORE
+TXT_LEVEL_CLEARED ; Level Cleared!
+TXT_TOTAL_SCORE ; Total score:
+TXT_LEVEL_FAILED ; OOPS! LEVEL FAILED!
+TXT_LETS_TRY_AGAIN ; let's try again!
+TXT_LEVEL_COMPLETED ; Levels completed:
+TXT_CREDITS ; Credits
+TXT_SKIPPED ; Skipped
+TXT_HINT ; Hint
+TXT_WALKTHROUGH ; Walkthrough
+TXT_GAME_COMPLETED ; Game completed!
+TXT_TUTORIAL_1 ; Click on the chain to cut it
+TXT_TUTORIAL_2 ; Gather coins for additional/nscore points
+TXT_TUTORIAL_3 ; Click on the box to punch!
+TXT_TUTORIAL_4 ; Cannon shoots objects/nthat fall into it
+TXT_TUTORIAL_5 ; Press on the emitter/nto activate the energy bridge
+TXT_TUTORIAL_6 ; A portal teleports objects/nto the second one

@@ -1,0 +1,27 @@
+
+world_open_text.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff
+  rotate: false
+  xy: 2, 62
+  size: 143, 182
+  orig: 143, 182
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 2, 2
+  size: 70, 58
+  orig: 70, 58
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 147, 202
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1

@@ -7,7 +7,6 @@
 </head>
 <body>
   <h1>A Koopa's Revenge</h1>
-  <!-- SWF dosyanın adı buyduysa -->
   <embed src="a_koopas_revenge.swf" width="800" height="600">
 </body>
 </html>
